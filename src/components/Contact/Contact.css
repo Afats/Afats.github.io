@@ -1,0 +1,15 @@
+.contact {
+  flex-direction: column;
+}
+
+.space2 {
+  padding: 10px;
+}
+
+.small_ghub {
+  transform: scale(1.2);
+}
+
+.small_linkedin {
+  transform: scale(1.5);
+}
