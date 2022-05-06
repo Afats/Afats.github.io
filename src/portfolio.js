@@ -31,47 +31,17 @@ const projects = [
       "COVID-19 data and charity website. Features an interactive 3D choropleth globe.",
     description1:
       "The Optiver SENG3011 Prize Runner Up Project, 2021.",
-    stack: ['MongoDB', 'ExpressJs', 'React', 'NodeJs', 'Postman', 'Swagger'],
+    stack: ['MERN stack', 'Postman', 'Swagger'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
     name: 'Gdwg',
     description:
-      'Generic Directed Weighted Graph library.',
+      'Gdwg: Generic Directed Weighted Graph library. Ghraph-foo galore.',
     description1:
       "Leverages modern C++20, using a custom iterator.",
     stack: ['C++', 'Catch2'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Generative Art',
-    description:
-      "Inspired by BAYC and the 'Generative Art' movement.",
-    description1:
-      "An Ethereum based NFT project. Built for Web3.",
-    stack: ['Solidity', 'OpenZeppelin', 'Truffle Suite'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: '1970s Chat Room',
-    description:
-      "A terminal-based application layer chat room & P2P messaging.",
-    description1:
-      "Multithreading, blocking, timeouts, offline messaging.",
-    stack: ['Python', 'Application Layer', 'Multithreading'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Squid Regression',
-    description:
-      "A study in predictive powers of different linear models.",
-    description1:
-      "Dataset is based on squids (rostral lengths), yikes.",
-    stack: ['R', 'Linear Regression', 'Cross Validation'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -82,6 +52,36 @@ const projects = [
     description1:
       "Sports battle resolvers, multiple factions, resources, etc.",
     stack: ['Java', 'OOP', 'Design Patterns'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: '1970s Chat Room',
+    description:
+      "A terminal-based application layer chat room & P2P messaging.",
+    description1:
+      "Multithreading, blocking, timeouts, offline messaging.",
+    stack: ['Python', 'Multithreading'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Squid Regression',
+    description:
+      "A study in predictive powers of different linear models.",
+    description1:
+      "Dataset for study is based on squid rostral (beak) lengths.",
+    stack: ['R', 'Linear Regression', 'Cross Validation'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Generative Art',
+    description:
+      "Inspired by BAYC and the 'Generative Art' movement.",
+    description1:
+      "An Ethereum based NFT project. Built for Web3.",
+    stack: ['Solidity', 'OpenZeppelin', 'Truffle Suite'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },

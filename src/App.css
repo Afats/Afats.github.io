@@ -7,10 +7,10 @@
 
 .light {
   --clr-bg: #ec3903;
-  --clr-bg-alt: #444444;
-  --clr-fg: rgb(239, 201, 201);
+  --clr-bg-alt: #9fb8b4;
+  --clr-fg: rgb(15, 19, 19);
   --clr-fg-alt: #444444;
-  --clr-primary: #ffffff;
+  --clr-primary: #d4e8e8;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -18,7 +18,7 @@
 .dark {
   --clr-bg: #101921;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
+  --clr-fg: #ddbdd7;
   --clr-fg-alt:#cdcdff;
   --clr-primary: #00FFA3;
   /* rgb(20, 241, 149); */
