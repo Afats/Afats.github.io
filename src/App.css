@@ -6,13 +6,15 @@
 }
 
 .light {
-  --clr-bg: #fff1d8;
-  --clr-bg-alt: rgb(225, 225, 225);
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
+  --clr-bg: #ec3903;
+  --clr-bg-alt: #444444;
+  --clr-fg: rgb(239, 201, 201);
+  --clr-fg-alt: #444444;
+  --clr-primary: #ffffff;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+
 .dark {
   --clr-bg: #101921;
   --clr-bg-alt: #2a2f4c;
