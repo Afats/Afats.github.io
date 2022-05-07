@@ -10,3 +10,8 @@
 .skills__list-item {
   margin: 0.5em;
 }
+
+.skills {
+  overflow: auto;
+  margin-top: 1em;
+}

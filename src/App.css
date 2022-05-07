@@ -37,11 +37,40 @@
   -moz-text-fill-color: transparent;
 }
 
+.sol-cascade-gradient {
+  background: linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
+  background: -moz-linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+} 
+
+
+.skills-cascade-gradient {
+  background: linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
+  background: -moz-linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
+  background: -webkit-linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+} 
+
+
 .sol-blue {
   background-color: #03E1FF;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
+}
+
+
+.uni-yellow {
+  background: #fff9ce;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
 }
 
 .uni-gradient {
@@ -60,20 +89,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
-  text-align: center;
-} 
-
-.sol-cascade-gradient {
-  /*  leverage cascade for cross-browser gradients  */
-  background: radial-gradient(
-    #00FFA3, 
-    #03E1FF,
-    #DC1FFF
-  ) fixed;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  text-align: center;
 } 
 
 main {

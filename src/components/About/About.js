@@ -14,11 +14,11 @@ const About = () => {
   return (
     <div className='about center'>
       {name && (
-        <span className="rev"><h1>
+        <span className="rev"><h1 className='cent__align'>
           Hi, I am <span className='about__name' ><span className="sol-cascade-gradient">{name}.</span></span>
         </h1></span>
       )}<span className="rev">
-      {role && <h2 className='about__role'><span className="sol-blue">{role}</span> @ <span className="uni-gradient">{uni}</span></h2>}</span>
+      {role && <h2 className='about__role'><span className="sol-blue">{role}</span> @ <span className="uni-yellow">{uni}</span></h2>}</span>
       <span className="rev3"><p className='about__desc'>{description}</p></span>
       <span className="rev2"><p className='about__desc'>{description1}</p></span>
       <span className="rev2_1"><p className='about__desc'>{description2}</p></span>
