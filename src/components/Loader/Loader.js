@@ -4,6 +4,7 @@ import Lottie from "react-lottie";
 import * as ripple from "./ripple.json";
 import * as blob from "./blob.json";
 
+import './Loader.css'
 import Header from '../Header/Header'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
@@ -53,9 +54,9 @@ function Loader() {
     {!completed ? (
     <>
     {!loading ? (
-    <Lottie options={defaultOptions1} />
+    <Lottie options={defaultOptions2}/>
     ) : (
-    <Lottie options={defaultOptions1} />
+    <Lottie options={defaultOptions2}/>
     )}
     </>
     ) : (

@@ -8,10 +8,10 @@
 .light {
   --clr-bg: #ec3903;
   --clr-bg-alt: #9fb8b4;
-  --clr-fg: rgb(15, 19, 19);
+  --clr-fg: #212121;
   --clr-fg-alt: #444444;
   --clr-primary: #d4e8e8;
-  --shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px,
+  --shadow: rgba(0, 0, 0, 0.319) 0px 7px 29px 0px,
   rgba(131, 118, 118, 0.06) 0px 0px 0px 1px;
 }
 
@@ -19,12 +19,12 @@
 .dark {
   --clr-bg: #101921;
   --clr-bg-alt: #2a2f4c;
-  --clr-fg: #ddbdd7;
+  --clr-fg: #eed9ea;
   --clr-fg-alt:#cdcdff;
   --clr-primary: #00FFA3;
   /* rgb(20, 241, 149); */
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --shadow: rgba(255, 255, 255, 0.109) 0px 10px 36px 0px,
+    rgba(255, 255, 255, 0.002) 0px 0px 0px 1px;
 }
 
 .sol-gradient {
