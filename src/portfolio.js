@@ -12,7 +12,7 @@ const about = {
   description:
     "Welcome stalker, I'm a 4th year Software Engineering (Honours) student at UNSW.",
   description1: 
-    "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product development to fractional NFTs, I enjoy exploring the breadth and depth of all things tech related",
+    "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product development to fractional NFTs, I enjoy exploring the breadth and depth of all things tech related.",
   description2:  
     "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music on Spotify.",
   resume: 'https://drive.google.com/file/d/1GkxXW2rZsYyGRaL-N9hLjokdEGRlVgZV/view?usp=sharing',
@@ -30,7 +30,7 @@ const projects = [
     description:
       "COVID-19 data and charity website. Features an interactive 3D choropleth globe.",
     description1:
-      "The Optiver SENG3011 Prize Runner Up Project, 2021.",
+      "The Optiver SENG3011 Prize Runner Up project, 2021.",
     stack: ['MERN stack', 'Postman', 'Swagger'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
@@ -60,7 +60,7 @@ const projects = [
     description:
       "A terminal-based application layer chat room & P2P messaging.",
     description1:
-      "Multithreading, blocking, timeouts, offline messaging.",
+      "Mutli-user support, blocking, timeouts, offline messaging, etc.",
     stack: ['Python', 'Multithreading'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',

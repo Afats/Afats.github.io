@@ -9,6 +9,7 @@ import Header from '../Header/Header'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
+import ScrollDown from '../ScrollDown/ScrollDown'
 import ScrollToTop from '../ScrollToTop/ScrollToTop'
 import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
@@ -66,6 +67,7 @@ function Loader() {
         <Projects />
         <Skills />
         <Contact />
+    <ScrollDown />
     <ScrollToTop />
     <Footer />
     </>

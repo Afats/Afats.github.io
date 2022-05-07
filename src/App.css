@@ -6,9 +6,9 @@
 }
 
 .light {
-  --clr-bg: #ec3903;
+  --clr-bg: #ff3b3b;
   --clr-bg-alt: #9fb8b4;
-  --clr-fg: #212121;
+  --clr-fg: #131313;
   --clr-fg-alt: #444444;
   --clr-primary: #d4e8e8;
   --shadow: rgba(0, 0, 0, 0.319) 0px 7px 29px 0px,
@@ -23,8 +23,8 @@
   --clr-fg-alt:#cdcdff;
   --clr-primary: #00FFA3;
   /* rgb(20, 241, 149); */
-  --shadow: rgba(255, 255, 255, 0.109) 0px 10px 36px 0px,
-    rgba(255, 255, 255, 0.002) 0px 0px 0px 1px;
+  --shadow: rgba(255, 255, 255, 0.053) 0px 7px 29px 0px,
+    rgba(255, 255, 255, 0.006) 0px 0px 0px 1px;
 }
 
 .sol-gradient {

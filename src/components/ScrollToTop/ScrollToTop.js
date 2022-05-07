@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import './ScrollToTop.css'
+import { AccountBoxRounded, MotorcycleSharp } from '@material-ui/icons'
+import $ from 'jquery';
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false)
@@ -21,5 +23,10 @@ const ScrollToTop = () => {
     </div>
   ) : null
 }
+
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
 
 export default ScrollToTop
