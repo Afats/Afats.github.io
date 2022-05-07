@@ -5,10 +5,12 @@
 
 .about__name {
   color: var(--clr-primary);
+  text-align: center;
 }
 
 .about__role {
   margin-top: 1.2em;
+  text-align: center;
 }
 
 .about__desc {
@@ -27,6 +29,9 @@
 }
 
 .about .btn--outline {
+  /*display: flex; */
+  justify-content: center;
+  align-items: center;
   margin-right: 1em;
 }
 
@@ -46,10 +51,14 @@
 }
 
 .large_ghub {
+  justify-content: center;
+  align-items: center;
   transform: scale(2.1);
 }
 
 .large_linkedin {
+  justify-content: center;
+  align-items: center;
   transform: scale(2.5);
 }
 
