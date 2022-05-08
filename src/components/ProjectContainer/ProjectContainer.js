@@ -4,7 +4,7 @@ import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <a className='project' href={project.sourceCode}>
     <h3>{project.name}</h3>
 
     <p className='project__description'>{project.description}</p>
@@ -38,7 +38,7 @@ const ProjectContainer = ({ project }) => (
         <LaunchIcon />
       </a>
     )} */}
-  </div>
+  </a>
 )
 
 export default ProjectContainer

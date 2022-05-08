@@ -116,7 +116,7 @@ const projs = [
     sourceCode: 'https://github.com/Afats/haskell-foo',
   },
   {
-    name: 'Algo Tchnqs',
+    name: 'Algo Technic',
     description:
       "Algorithms and techniques.",
     description1:
