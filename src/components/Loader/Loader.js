@@ -31,10 +31,34 @@ const defaultOptions2 = {
     },
 };
 
+function getWindowDimensions() {
+  const { innerWidth: w, innerHeight: h} = window;
+  return {
+    w,
+    h
+  };
+}
+
+function useWindowDimensions() {
+  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return windowDimensions;
+}
+
 function Loader() {
     const [data, setData] = useState([]);
     const [loading, setloading] = useState(undefined);
     const [completed, setcompleted] = useState(undefined);
+    const { h, w } = useWindowDimensions();
     
     useEffect(() => {
         setTimeout(() => {
@@ -55,9 +79,9 @@ function Loader() {
     {!completed ? (
     <>
     {!loading ? (
-    <Lottie options={defaultOptions2}/>
+    <Lottie options={defaultOptions2} height={h} width={w} />
     ) : (
-    <Lottie options={defaultOptions2}/>
+    <Lottie options={defaultOptions2} height={h} width={w} />
     )}
     </>
     ) : (

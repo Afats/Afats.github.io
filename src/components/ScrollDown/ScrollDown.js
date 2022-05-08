@@ -8,7 +8,7 @@ const ScrollDown = () => {
     const toggleVisibility = () =>
       window.pageYOffset < 200  ? setIsVisible(true) : setIsVisible(false)
 
-    window.addEventListener('mousemove', toggleVisibility)
+    window.addEventListener('mousemove', toggleVisibility) || window.addEventListener('scroll', toggleVisibility)
     return () => window.removeEventListener('scroll', toggleVisibility) || window.removeEventListener('mousemove', toggleVisibility)
   }, [])
 
