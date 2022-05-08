@@ -29,7 +29,7 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
 
-    {project.livePreview && (
+    {/* {project.livePreview && (
       <a
         href={project.livePreview}
         aria-label='live preview'
@@ -37,7 +37,7 @@ const ProjectContainer = ({ project }) => (
       >
         <LaunchIcon />
       </a>
-    )}
+    )} */}
   </div>
 )
 
