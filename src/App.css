@@ -13,6 +13,8 @@
   --clr-primary: #d4e8e8;
   --shadow: rgba(0, 0, 0, 0.319) 0px 7px 29px 0px,
   rgba(131, 118, 118, 0.06) 0px 0px 0px 1px;
+  --hover-glow: rgba(0, 0, 0, 0.7) 0px 7px 29px 0px,
+  rgba(131, 118, 118, 0.06) 0px 0px 0px 1px;
 }
 
 
@@ -24,6 +26,8 @@
   --clr-primary: #00FFA3;
   /* rgb(20, 241, 149); */
   --shadow: rgba(255, 255, 255, 0.053) 0px 7px 29px 0px,
+    rgba(255, 255, 255, 0.006) 0px 0px 0px 1px;
+  --hover-glow: rgba(6, 234, 227, 0.6) 0px 7px 29px 0px,
     rgba(255, 255, 255, 0.006) 0px 0px 0px 1px;
 }
 
@@ -42,6 +46,7 @@
 }
 
 .sol-cascade-gradient {
+  background-color: #00FFA3;
   background: linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
   background: -moz-linear-gradient(#00FFA3, #03E1FF,#DC1FFF) fixed;
   -webkit-background-clip: text;
