@@ -123,7 +123,7 @@ shuffle(projs);
 const projects = projs.slice(0, 6);
 
 const projects_intro = {
-  desc: "Below are some of my projects. Refresh the page to get a random set of my projects!",
+  desc: "Refresh the page to view a random set of my projects below!",
   plug_desc: "Alternatively, have a look at all of them at once ",
 }
 
