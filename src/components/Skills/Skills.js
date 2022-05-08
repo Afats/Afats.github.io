@@ -7,7 +7,7 @@ const Skills = () => {
 
   return (
     <section id='skills' className='section skills'>
-      <h2 className='section__title'><span className="skills-cascade-gradient">Skills</span></h2>
+      <h2 className='section__title'><span className='electric__blue'>Skills</span></h2>
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain'>
