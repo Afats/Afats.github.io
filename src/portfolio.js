@@ -32,18 +32,16 @@ const projs = [
     description1:
       "The Optiver SENG3011 Prize Runner Up project, 2021.",
     stack: ['MERN stack', 'Postman', 'Swagger'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/virchu',
   },
   {
-    name: 'Gdwg',
+    name: 'Dawg',
     description:
-      'Gdwg: Generic Directed Weighted Graph library. Ghraph-foo galore.',
+      'Dawg: a generic Directed Weighted Graph library. Ghraph-foo galore.',
     description1:
       "Leverages modern C++20, using a custom iterator.",
     stack: ['C++', 'Catch2'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/dawg',
   },
   {
     name: 'Gloria Romanus',
@@ -52,18 +50,16 @@ const projs = [
     description1:
       "Sports battle resolvers, multiple factions, resources, etc.",
     stack: ['Java', 'OOP', 'Design Patterns'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/gloria-romanus',
   },
   {
     name: '1970s Chat Room',
     description:
       "A terminal-based application layer chat room & P2P messaging.",
     description1:
-      "Mutli-user support, blocking, timeouts, offline messaging, etc.",
+      "Multi-user support, blocking, timeouts, offline messaging, etc.",
     stack: ['Python', 'Multithreading'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/p2p-messaging',
   },
   {
     name: 'Squid Regression',
@@ -72,8 +68,7 @@ const projs = [
     description1:
       "Dataset for study is based on squid rostral (beak) lengths.",
     stack: ['R', 'Linear Regression', 'Cross Validation'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/squid-regression',
   },
   {
     name: 'Generative Art',
@@ -82,18 +77,16 @@ const projs = [
     description1:
       "An Ethereum based NFT project. Built for Web3.",
     stack: ['Solidity', 'OpenZeppelin', 'Truffle Suite'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/generative-art',
   },
   {
-    name: 'NSW Transport',
+    name: 'On The Way',
     description:
       "A prototype for NSW Transport, built with SWE design practices.",
     description1:
       "Product development and user requirements.",
     stack: ['Figma', 'React Expo', 'UI/UX Design'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/Afats/on-the-way',
   },
   {
     name: 'MooseGit',
@@ -101,9 +94,89 @@ const projs = [
       "An implementation of a Git-like version control system.",
     description1:
       "Classic git-like commands including git init, add, commit, etc.",
-    stack: ['Shell programming', 'Git', 'SHA256'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Shell programming', 'Git', 'SHA-1'],
+    sourceCode: 'https://github.com/Afats/moose-git',
+  },
+  {
+    name: 'MIPS Emulator',
+    description:
+      "A MIPS emulator in C.",
+    description1:
+      "MIPS opcodes and semantics stuff.",
+    stack: ['C', 'Assembly'],
+    sourceCode: 'https://github.com/Afats/mips-emulator',
+  },
+  {
+    name: 'Haskell Foo',
+    description:
+      "Functional programming exercises in Haskell.",
+    description1:
+      "Should haskell be taught to newbies?",
+    stack: ['Haskell'],
+    sourceCode: 'https://github.com/Afats/haskell-foo',
+  },
+  {
+    name: 'Algo Tchnqs',
+    description:
+      "Algorithms and techniques.",
+    description1:
+      "Binary search, dynamic programming, greedy method, etc.",
+    stack: ['Haskell'],
+    sourceCode: 'https://github.com/Afats/algos-docs',
+  },
+  {
+    name: 'Handbook Scraper',
+    description:
+      "Rudimentary web scraper. Scrapes data in a \"humane\" way.",
+    description1:
+      "For the 2022 UNSW handbook, which is a pain to scrape.",
+    stack: ['Pyhton', 'Selenium'],
+    sourceCode: 'https://github.com/Afats/handbook-scraper',
+  },
+  {
+    name: 'Shell Compiler',
+    description:
+      "A Perl program that takes in shell scripts and outputs Perl.",
+    description1:
+      "Complex scripts may set your laptop on fire.",
+    stack: ['Perl', 'Shell'],
+    sourceCode: 'https://github.com/Afats/shell-compiler',
+  },
+  {
+    name: 'Word Ladder',
+    description:
+      "Program that quickly finds the shortest \"word ladder \" between 2 words.",
+    description1:
+      "Implemented leveraging BFS, DFS and C++20.",
+    stack: ['C++', 'Catch2'],
+    sourceCode: 'https://github.com/Afats/word-ladder',
+  },
+  {
+    name: 'Dafny Duck',
+    description:
+      "Program verification exercises in Dafny.",
+    description1:
+      "Dafny is a language for expressing verification problems.",
+    stack: ['Dafny'],
+    sourceCode: 'https://github.com/Afats/dafny-duck',
+  },
+  {
+    name: 'NFT Marketplace',
+    description:
+      "An ongoing NFT marketplace concept design.",
+    description1:
+      "Features a Tinder-like swipe interface to swipe between listed items.",
+    stack: ['Figma', 'UI/UX Design'],
+    sourceCode: 'https://github.com/Afats/nft-marketplace',
+  },
+  {
+    name: 'UniTree',
+    description:
+      "A Lo-fi revamped design of UNSW's Moodle site.",
+    description1:
+      "Because the current one sucks.",
+    stack: ['Figma', 'UI/UX Design'],
+    sourceCode: 'https://github.com/Afats/moodle-ui',
   }
 ]
 
