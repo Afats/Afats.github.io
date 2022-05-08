@@ -22,7 +22,7 @@ const about = {
   },
 }
 
-const projects = [
+const projs = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
@@ -85,7 +85,47 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
+  {
+    name: 'NSW Transport',
+    description:
+      "A prototype for NSW Transport, built with SWE design practices.",
+    description1:
+      "Product development and user requirements.",
+    stack: ['Figma', 'React Expo', 'UI/UX Design'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'MooseGit',
+    description:
+      "An implementation of a Git-like version control system.",
+    description1:
+      "Classic git-like commands including git init, add, commit, etc.",
+    stack: ['Shell programming', 'Git', 'SHA256'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  }
 ]
+
+/* Randomize array in-place using Durstenfeld shuffle algorithm */
+function shuffle(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+  }
+
+}
+
+shuffle(projs);
+
+const projects = projs.slice(0, 6);
+
+const projects_intro = {
+  desc: "Below are some of my projects. Refresh the page to get a random set of my projects!",
+  plug_desc: "Alternatively, have a look at all of them at once ",
+}
 
 const skills = [
   // skills can be added or removed
@@ -110,4 +150,4 @@ const contact = {
   email: 'mmdohad2000@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, projects_intro, skills, contact }

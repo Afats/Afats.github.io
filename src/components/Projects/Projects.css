@@ -5,3 +5,40 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
+
+.projects__intro {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+@media (max-width: 600px) {
+  .projects__intro {
+    font-size: 1.1rem;
+    margin: 1.2em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2.2em;
+  }
+}
+
+.projects__plug {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: -1em;
+  margin-bottom: 3.8em;
+}
+
+
+@media (max-width: 600px) {
+  .projects__plug {
+    font-size: 1.1rem;
+    margin: 1.2em;
+    padding-top: -1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2.8em;
+  }
+}
