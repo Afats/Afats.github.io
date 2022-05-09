@@ -12,7 +12,7 @@ const about = {
   description:
     "Welcome stalker, I'm a 4th year Software Engineering (Honours) student at UNSW.",
   description1: 
-    "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product development to fractional NFTs, I enjoy exploring the breadth and depth of all things tech related.",
+    "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product dev to skip lists, I enjoy exploring tech.",
   description2:  
     "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music on Spotify.",
   resume: 'https://drive.google.com/file/d/1GkxXW2rZsYyGRaL-N9hLjokdEGRlVgZV/view?usp=sharing',
