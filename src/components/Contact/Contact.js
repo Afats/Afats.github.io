@@ -24,6 +24,7 @@ const Contact = () => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target="_blank"
               >
                   <GitHubIcon className="small_ghub"/>
               </a>
@@ -36,6 +37,7 @@ const Contact = () => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target="_blank"
               >
                 <LinkedInIcon className="small_linkedin"/>
               </a>

@@ -11,7 +11,7 @@ const Projects = () => {
   return (
     <section id='projects' className='section projects'>
       <h2 className='section__title'><span className='electric__blue'>Projects</span></h2>
-      <p className='projects__intro'>{desc}</p>
+      <p className='projects__intro'><b>{desc}</b></p>
       <p className='projects__plug'>{plug_desc}<a className= 'link' href="https://github.com/Afats?tab=repositories">here</a>.</p>
       <div className='projects__grid'>
         {projects.map((project) => (

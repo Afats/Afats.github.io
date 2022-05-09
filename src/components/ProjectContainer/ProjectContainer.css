@@ -6,6 +6,14 @@
   transition: transform 0.2s linear;
 }
 
+
+@media (max-width: 600px) {
+  .project {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
 .project:hover {
   transform: translateY(-7px);
   box-shadow: var(--hover-glow);
@@ -31,4 +39,10 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.cent {
+  text-align: center;
+  align-items: center;
+  align-self: center;
 }

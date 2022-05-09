@@ -60,26 +60,18 @@
   text-align: center;
 }
 
-.about .link--icon {
-  margin-right: 0.8em;
-}
-
-.about .btn--outline {
-  margin-right: 1em;
-}
-
 .space_top {
-  padding: 10px;
+  padding: 1em;
 }
 
 .space {
-  padding: 20px;
+  padding: 1.4em;
 }
 
 .large_ghub {
   justify-content: center;
   align-items: center;
-  transform: scale(2.1);
+  transform: scale(2);
   margin-bottom: 0.5em;
 }
 
@@ -87,6 +79,6 @@
   justify-content: center;
   align-items: center;
   transform: scale(2.5);
-  margin-bottom: 0.4em;
+  margin-bottom: 0.5em;
 }
 

@@ -100,7 +100,7 @@ const projs = [
   {
     name: 'MIPS Emulator',
     description:
-      "A MIPS emulator in C.",
+      "A MIPS emulator written in C.",
     description1:
       "MIPS opcodes and semantics stuff.",
     stack: ['C', 'Assembly'],
@@ -111,17 +111,17 @@ const projs = [
     description:
       "Functional programming exercises in Haskell.",
     description1:
-      "Should haskell be taught to newbies?",
+      "Should haskell be taught to new programmers?",
     stack: ['Haskell'],
     sourceCode: 'https://github.com/Afats/haskell-foo',
   },
   {
     name: 'Algo Technic',
     description:
-      "Algorithms and techniques.",
+      "Algorithms and programming techniques.",
     description1:
       "Binary search, dynamic programming, greedy method, etc.",
-    stack: ['Haskell'],
+    stack: ['Algorithms'],
     sourceCode: 'https://github.com/Afats/algos-docs',
   },
   {
@@ -145,7 +145,7 @@ const projs = [
   {
     name: 'Word Ladder',
     description:
-      "Program that quickly finds the shortest \"word ladder \" between 2 words.",
+      "Program that quickly finds the shortest \"word ladder\" between 2 words.",
     description1:
       "Implemented leveraging BFS, DFS and C++20.",
     stack: ['C++', 'Catch2'],
@@ -172,9 +172,9 @@ const projs = [
   {
     name: 'UniTree',
     description:
-      "A Lo-fi revamped design of UNSW's Moodle site.",
+      "A lo-fi revamped design of UNSW's Moodle site.",
     description1:
-      "Because the current one sucks.",
+      "Why? Because the current one sucks.",
     stack: ['Figma', 'UI/UX Design'],
     sourceCode: 'https://github.com/Afats/moodle-ui',
   }
@@ -197,7 +197,7 @@ const projects = projs.slice(0, 6);
 
 const projects_intro = {
   desc: "Refresh the page to view a random set of my projects below!",
-  plug_desc: "Alternatively, have a look at all of them at once ",
+  plug_desc: "Alternatively, have a look at all of them ",
 }
 
 const skills = [
