@@ -221,6 +221,12 @@ main {
   transform: translateY(-5px);
 }
 
+@media (max-width: 600px) {
+  .section {
+    margin-top: 6em;
+  }
+}
+
 
 
 
