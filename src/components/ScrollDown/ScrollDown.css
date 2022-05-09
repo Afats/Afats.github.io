@@ -9,8 +9,8 @@
 	width: 60px;
   height: 72px;
   position: fixed;
-  bottom: 2em;
-  right: 4em;
+  bottom: 0.5em;
+  right: 2em;
   background-color: transparent;
   transform: scale(0.5);
 }
