@@ -14,7 +14,7 @@ const about = {
   description1: 
     "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product dev to skip lists, I enjoy exploring tech.",
   description2:  
-    "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music on Spotify.",
+    "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music.",
   resume: 'https://drive.google.com/file/d/1GkxXW2rZsYyGRaL-N9hLjokdEGRlVgZV/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/mustafadohad/',
