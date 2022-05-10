@@ -28,7 +28,7 @@
     background: #101921;
     animation: a-ltr-after 11.3s cubic-bezier(.77,0,.18,1) forwards;
     transform: translateX(-101%);
-    animation-delay: 6.9s;
+    animation-delay: 6.7s;
 }
 
 .rev2::before{
@@ -41,7 +41,7 @@
     background: var(--bg-color);
     animation: a-ltr-before 11s cubic-bezier(.77,0,.18,1) forwards;
     transform: translateX(0);
-    animation-delay: 6.9s;
+    animation-delay: 6.7s;
 }
 
 .rev2:nth-of-type(1)::before,
