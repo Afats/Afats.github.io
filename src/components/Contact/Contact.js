@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <section className='section contact center' id='contact'>
-      <a href={`mailto:${contact.email}`}>
+      <a href={`mailto:${contact.email}`} target="_blank">
         <span type='button' className='btn btn--outline'>
           Send me an email
         </span>
