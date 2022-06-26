@@ -12,10 +12,10 @@ const about = {
   description:
     "Welcome stalker, I'm a 4th year Software Engineering (Honours) student at UNSW.",
   description1: 
-    "I have a passion for blockchain tech and UI/UX design. I try to wear many hats - from product dev to skip lists, I enjoy exploring tech.",
+    "I have a passion for cybersecurity, distributed ledger tech and UI/UX design. I try to wear many hats - from product dev to skip lists, I enjoy exploring tech.",
   description2:  
     "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music.",
-  resume: 'https://drive.google.com/file/d/1GkxXW2rZsYyGRaL-N9hLjokdEGRlVgZV/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1oDoPTWxrZ0ex4rIOGQ4ahmF89ufu5Lv0/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/mustafadohad/',
     github: 'https://github.com/Afats',
@@ -203,19 +203,18 @@ const projects_intro = {
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'C++',
-  'C',
+  'C++', 'C', 'Java', 'x86 Assembly',
   'Python',
-  'Java',
+  'Solidity',
   'R', 
   'Web Dev',
   'Figma, Maze, XD',
   'Haskell, Dafny',
   'Splunk',
-  'Solidity',
   'SQL',
-  'Perl, Bash',
-  'Photoshop, Lightroom'
+  'Perl, Bash Scripting',
+  'Photoshop, Lightroom',
+  'Binary Ninja, Ghidra, Burp'
 ]
 
 const contact = {
