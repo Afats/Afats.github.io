@@ -12,10 +12,10 @@ const about = {
   description:
     "Welcome stalker, I'm a 4th year Software Engineering (Honours) student at UNSW.",
   description1: 
-    "I have a passion for cybersecurity, distributed ledger tech and UI/UX design. I try to wear many hats - from product dev to skip lists, I enjoy exploring tech.",
+    "I have a passion for cybersecurity, DLT and UI/UX design. I try to wear many hats - from product dev to ROP chains, I enjoy exploring tech.",
   description2:  
     "An avid Formula 1 and soccer fan, I also enjoy DJing and am always on the hunt for good music.",
-  resume: 'https://drive.google.com/file/d/1oDoPTWxrZ0ex4rIOGQ4ahmF89ufu5Lv0/view?usp=sharing',
+  resume: 'https://docs.google.com/document/d/1kbaiNI74ac5-u2omLnGnqJXTHKfibbcD/edit?usp=sharing&ouid=105455229737504325088&rtpof=true&sd=true',
   social: {
     linkedin: 'https://www.linkedin.com/in/mustafadohad/',
     github: 'https://github.com/Afats',
@@ -44,6 +44,15 @@ const projs = [
     sourceCode: 'https://github.com/Afats/dawg',
   },
   {
+    name: 'Fat Fox Fuzzer',
+    description:
+      "Mutation-based fuzzer that takes an input and mutates it to fuzz programs.",
+    description1:
+      "Variety of mutation strats used. Next step: coverage-based mutation prioritisation.",
+    stack: ['Python', 'Pwnlib', 'GDB'],
+    sourceCode: 'https://github.com/Afats/gloria-romanus',
+  },
+  {
     name: 'Gloria Romanus',
     description:
       "A backend implementation spin-off of the popular strategy game Civilisation.",
@@ -60,6 +69,15 @@ const projs = [
       "Multi-user support, blocking, timeouts, offline messaging, etc.",
     stack: ['Python', 'Multithreading'],
     sourceCode: 'https://github.com/Afats/p2p-messaging',
+  },
+  {
+    name: 'Word Ladder',
+    description:
+      "Program that quickly finds the shortest \"word ladder\" between 2 words.",
+    description1:
+      "Implemented leveraging BFS, DFS and C++20.",
+    stack: ['C++', 'Catch2'],
+    sourceCode: 'https://github.com/Afats/word-ladder',
   },
   {
     name: 'Squid Regression',
@@ -82,7 +100,7 @@ const projs = [
   {
     name: 'On The Way',
     description:
-      "A prototype for NSW Transport, built with SWE design practices.",
+      "A prototype for NSW Transport, built with UI/UX design principles.",
     description1:
       "Product development and user requirements.",
     stack: ['Figma', 'React Expo', 'UI/UX Design'],
@@ -143,15 +161,6 @@ const projs = [
     sourceCode: 'https://github.com/Afats/shell-compiler',
   },
   {
-    name: 'Word Ladder',
-    description:
-      "Program that quickly finds the shortest \"word ladder\" between 2 words.",
-    description1:
-      "Implemented leveraging BFS, DFS and C++20.",
-    stack: ['C++', 'Catch2'],
-    sourceCode: 'https://github.com/Afats/word-ladder',
-  },
-  {
     name: 'Dafny Duck',
     description:
       "Program verification exercises in Dafny.",
@@ -180,6 +189,26 @@ const projs = [
   }
 ]
 
+const projects = projs.slice(0, 6);
+var projs1 = null;
+//On load:
+var state = history.state || {};
+var reloadCount = state.reloadCount || 0;
+if (performance.navigation.type === 1) { // Reload
+    state.reloadCount = ++reloadCount;
+    history.replaceState(state, null, document.URL);
+} else if (reloadCount) {
+    delete state.reloadCount;
+    reloadCount = 0;
+    history.replaceState(state, null, document.URL);
+}
+if (reloadCount % 2 == 1) {
+  shuffle(projs);
+  projs1 = projs.slice(0, 6);
+}
+
+const shuffled_projects = projs1;
+
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
 function shuffle(array) {
   for (var i = array.length - 1; i > 0; i--) {
@@ -191,13 +220,18 @@ function shuffle(array) {
 
 }
 
-shuffle(projs);
+// shuffle(projs);
 
-const projects = projs.slice(0, 6);
+// const projects = projs.slice(0, 6);
 
 const projects_intro = {
   desc: "Refresh the page to view a random set of my projects below!",
-  plug_desc: "Alternatively, have a look at all of them ",
+  plug_desc: "Favourite projects shown below. Alternatively, have a look at all of them ",
+}
+
+const shuffled_projects_intro = {
+  desc: "Refresh the page to view my favourite projects below!",
+  plug_desc: "Random projects shown below. Alternatively, have a look at all of them ",
 }
 
 const skills = [
@@ -210,11 +244,10 @@ const skills = [
   'Web Dev',
   'Figma, Maze, XD',
   'Haskell, Dafny',
-  'Splunk',
   'SQL',
   'Perl, Bash Scripting',
   'Photoshop, Lightroom',
-  'Binary Ninja, Ghidra, Burp'
+  'Binary Ninja, Ghidra', 'Burp Suite', 'Splunk',
 ]
 
 const contact = {
@@ -222,4 +255,4 @@ const contact = {
   email: 'mmdohad2000@gmail.com',
 }
 
-export { header, about, projects, projects_intro, skills, contact }
+export { header, about, projects, shuffled_projects, projects_intro, shuffled_projects_intro, skills, contact }
